@@ -16,7 +16,7 @@ const users = () => {
     ];
     return (
         <div>
-            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }} className="text-3xl">
                 <h1>Terima Kasih...</h1>
             </div>
