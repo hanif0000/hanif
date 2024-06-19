@@ -15,7 +15,7 @@ const users = () => {
 
     ];
     return (
-        <div>
+        <div style={{  justifyContent: 'center', alignItems: 'center' , paddingTop: '10%'}}>
             
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }} className="text-3xl">
                 <h1>Terima Kasih...</h1>

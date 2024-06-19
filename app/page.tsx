@@ -46,6 +46,7 @@ export default function Home() {
           <p className="font-bold text-inherit">Menderma amalan mulia...</p>
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-1" justify="center">
+          <Link href="/rg">About us</Link>
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem>
@@ -56,6 +57,7 @@ export default function Home() {
         </NavbarContent>
       </Navbar>
 
+<div >
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', paddingTop: '25vh' }} className="text-3xl">
         <h1>Please donate... I want to buy GTA 5</h1>
       </div>
@@ -95,37 +97,15 @@ export default function Home() {
                     </Link>
                   )}
                 </MenuItem>
-                <MenuItem>
-                  {({ focus }) => (
-                    <Link href="/zafran"
-
-                      className={classNames(
-                        focus ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                        'block px-4 py-2 text-sm',
-                      )}
-                    >Zafran
-
-                    </Link>
-                  )}
-                </MenuItem>
-                <MenuItem>
-                  {({ focus }) => (
-                    <Link href="/fazlee"
-
-                      className={classNames(
-                        focus ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                        'block px-4 py-2 text-sm',
-                      )}
-                    >Fazlee
-
-                    </Link>
-                  )}
-                </MenuItem>
+                
+                
 
               </div>
             </MenuItems>
           </Transition>
         </Menu>
+      </div>
+
       </div>
     </main>
   );
